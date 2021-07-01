@@ -1,8 +1,7 @@
 /**
  * @name SleekVision
  * @version 0.0.2
- * @description: hi
- made by mynameiskarter
+ * @author Mynameiskarter
  */
 
 /*
@@ -11,7 +10,6 @@ V.0.0.1  | Created, still some bugs but that will be fixed in later updates!
 */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url(https://github.com/mynamiskarter/betterdiscord-theme/blob/main/SleekVisionName.css);
 
 :root {
     content: "REEEE TURN IT BACK OFF";
@@ -705,3 +703,4 @@ app-mount .members-1998pB/*Member List*/ {
   transform: translate(-5px, -4px);
   border-radius: 5px;
 }
+
