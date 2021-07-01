@@ -1,12 +1,15 @@
 /**
  * @name SleekVision
- * @version 0.0.2
+ * @version 0.0.3
  * @author Mynameiskarter
+ * @description This is called SleekVision.
  */
 
 /*
 CHANGELOG:
-V.0.0.1  | Created, still some bugs but that will be fixed in later updates!
+V.0.1 | Created, still some bugs but that will be fixed in later updates!
+V.0.2 | added the borders to make it look more appealing, fixed some bugs!
+V.0.3 | Changed the colors up a bit, and moved the profile thing to the top right!
 */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
@@ -534,7 +537,7 @@ color:#625e66;
 div[class*="typeWindows-"]::after {
     position: absolute;
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    content: "SleekVision V.0.2";
+    content: "SleekVision V.0.3";
     font-size: 14px;
     font-weight: bold;
     top: px;
@@ -703,4 +706,3 @@ app-mount .members-1998pB/*Member List*/ {
   transform: translate(-5px, -4px);
   border-radius: 5px;
 }
-
