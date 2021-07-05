@@ -12,18 +12,25 @@ V.0.2 | added the borders to make it look more appealing, fixed some bugs!
 V.0.3 | Changed the colors up a bit, and moved the profile thing to the top right!
 */
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+/*
+Credits:
+DoggyBootsy#0001
+
+
+
+This theme originally from dark matter, BUT this is in no way like dark matter.
+it is completely different and redesigned. I only used it for a starter, other than that this is completly my  
+theme, with people that helped
+*/
 
 :root {
-    content: "REEEE TURN IT BACK OFF";
-    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    color: var(--SleekVision-primary);
+
     --avatar-radius: 10px;
     --settingsiconssize: 18px;
     --settingsiconsgap: 14px;
     
 
-    /* Color palette */
+    
  
     --SleekVision-primary: #001127;
     --SleekVision-secondary: #2b2c2c;
@@ -37,9 +44,6 @@ V.0.3 | Changed the colors up a bit, and moved the profile thing to the top righ
     --SleekVision-less-hot: #af4474;
   
     display: unset;
-    
-
-    /* Scrollbar */
     --SleekVision-scrollbar-track: var(--SleekVision-primary);
     --SleekVision-scrollbar-thumb: var(--SleekVision-red);
     
@@ -76,10 +80,8 @@ html.theme-dark::before{
     --background-tertiary: var(--SleekVision-tertiary);
     --background-accent: var(--background-primary);
     --background-mentioned-side:#0000006c;
-    /* --header-primary: var(--SleekVision-accent-color); */
     --interactive-active: var(--SleekVision-accent-color);
     --radio-group-dot-foreground: var(--SleekVision-accent-color);
-    /* Chat input box */
     --channeltextarea-background: #0000006c;
     --scrollbar-auto-thumb: var(--SleekVision-scrollbar-thumb);
     --scrollbar-auto-track: var(--SleekVision-scrollbar-track);
@@ -87,25 +89,23 @@ html.theme-dark::before{
     --scrollbar-auto-scrollbar-color-track: var(--SleekVision-scrollbar-track);
     --text-link: var(--SleekVision-secondary-alt);
 }
-
-/* Weird Discord Possesive */
 .theme-dark .pageWrapper-1PgVDX {
   background-color: var(--background-primary);
 }
 
 
-/* People column */
+
 .theme-dark .container-1D34oG { background-color: var(--background-primary); }
 
-/* Modals */
+
 .theme-dark .root-1gCeng { background-color: var(--background-primary); }
 .theme-dark .footer-2gL1pp { background-color: var(--background-tertiary); }
 
-/* Popup when you click a mention */
+
 .theme-dark .headerNormal-T_seeN { background-color: rgb(255, 255, 255); }
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 { background-color: var(--background-secondary); }
 
-/* Mention autocompletion in chat box */
+
 .theme-dark .autocomplete-1vrmpx { background-color: rgb(116, 116, 116) }
 .theme-dark .selected-1Tbx07 { background-color:rgb(14, 46, 82) }
 
@@ -120,11 +120,10 @@ html.theme-dark::before{
 
 
 
-/* Assets are all white*/
+
 .theme-dark svg {
     color: var(--SleekVision-svg);
 }
-
 .theme-dark .icon-1DeIlz {
   color: var(--SleekVision-svg);
 }
@@ -134,100 +133,68 @@ html.theme-dark::before{
 .theme-dark .premiumIcon-1rDbWQ {
     color: #535253;
 }
-
 .theme-dark .ownerIcon-2NH9FM {
     color: #44423e;
 }
-/* Discord mentions*/
 .theme-dark .mentioned-xhSam7:before {
     background-color: rgba(255, 255, 255, 0.397);
 }
-
 .theme-dark .mentioned-xhSam7 .mention {
    background-color: black ;
 }
-
 .theme-dark .wrapper-3WhCwL {
   color: rgb(255, 255, 255);
 }
-
 .interactive:hover {
   background-color: rgb(30, 14, 77);
 }
-/* New Messages */
-
 .theme-dark .newMessagesBar-265mhP {
   background-color: var(--background-secondary-alt);
 }
-
-
-/* Inputs */
 
 .theme-dark input {
   background-color: var(--SleekVision-input-box);
   
 }
-/* Discord Codeblocks */
 .theme-dark code {
     background-color: var(--SleekVision-input-box);
    
 }
-
 .theme-dark .inline {
     background-color: var(--background-primary);
 }
-
-
-/* Embeds with no explicit color set*/
 .theme-dark .embed-IeVjo5 {
     border-color: var(--background-primary);
 }
-
 .theme-dark .item-2hkk8m {
   color: var(--SleekVision-secondary-alt);
   background-color: var(--SleekVision-secondary-alt);
 }
-
-/* Damn Dots */
-
 .theme-dark .unread-2lAfLh {
   background-color: var(--SleekVision-secondary-alt);
 }
-
-/* Do not Disturb Status*/
 .theme-dark rect[mask="url(#svg-mask-status-dnd)"] {
     fill: var(--SleekVision-red);
 }
-/* Mention Badge*/
 .theme-dark .numberBadge-2s8kKX {
     background-color: var(--SleekVision-red) !important;
 }
-/* Search Modal */
 .theme-dark .open-6_Y_aH {
     background-color: var(--background-secondary);
 }
-
-/* Quote */
 .theme-dark .blockquoteContainer-U5TVEi {
     background-color: var(--background-tertiary);
     
 }
-
 .theme-dark .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
   background-color: var(--SleekVision-secondary-alt);
 }
-
-/* New Reply*/
 .repliedMessage-VokQwo:before {
     border-color: var(--SleekVision-secondary-alt);
 }
-
-/* Context Menus*/
 .thin-1ybCId {
     background-color: var(--background-secondary);
 }
-
-/* Folders are ugly */
 .theme-dark .folder-21wGz3 {
   background-color: var(--SleekVision-secondary-alt);
 }
@@ -235,8 +202,6 @@ html.theme-dark::before{
 .theme-dark .expandedFolderIconWrapper-1xLaU- {
   color: white;
 }
-
-/* User Area */
 .theme-dark .panels-j1Uci_ {
  
   background-color: rgba(122, 107, 107, 0.24);
@@ -246,9 +211,6 @@ html.theme-dark::before{
 
   
 }
-
-/* RPC */
-
 .theme-dark .headerPlaying-j0WQBV {
   background-color: var(--background-tertiary);
 }
@@ -261,7 +223,7 @@ html.theme-dark::before{
   background-color: var(--SleekVision-less-hot);
 }
 
-/* Bot Tag */
+
 .botTagRegular-2HEhHi {
   transition: .5s;
   background: rgba(228, 0, 0, 0.1);
@@ -272,13 +234,9 @@ html.theme-dark::before{
   background: #7289da;
   color: #fff;
 }
-
-/* Selection Menu Neutral */
 .passthrough-1c2ewQ.selected-2YhbGh  {
   background-color: #ffba00 !important;
 }
-
-/* Better ROles */
 .role-2irmRk {
   position: relative;
   overflow: hidden;
@@ -295,39 +253,28 @@ html.theme-dark::before{
   background: inherit;
   opacity: .1;
   pointer-events: none;
-  
+
 }
 .footer-1fjuF6 {
   border-top: none;
 }
-
-
 .theme-dark .hljs
 {
 display: block;
 overflow-x: auto;
 padding: 0.5em;
-/* background: rgb(80,31,122); */
-/* background: linear-gradient(166deg, rgba(80,31,122,1) 0%, rgba(40,32,179,1) 80%); */
+
 background-color: var(--SleekVision-input-box);
 color:#625e66;
 
 }
-
 .theme-dark .markup-2BOw-j code {
   border: 1px solid var(--SleekVision-tertiary);
 }
-
 .theme-dark .powercord-codeblock-table td:first-child {
-  /* border-right: 1px solid var(--SleekVision-less-hot); */
+
   color: var(--background-mentioned-side);
 }
-
-/* .theme-dark .powercord-codeblock-lang {
-   border-bottom: 1px solid var(--SleekVision-less-hot); 
-  color: var(--background-mentioned-side);
-}  */
-
 .hljs-subtr{
   color:#e7e4eb;
 }
@@ -358,7 +305,6 @@ color:#625e66;
   color:#F19FFF;
   
 }
-
 .hljs-keyword,
 .hljs-section,
 .hljs-meta-keyword,
@@ -605,7 +551,9 @@ right: 5px;
 }
 .noWrap-3jynv6 {
 transform: translate(-48px, 15px);
-margin: 5px;
+margin: 55px;
+margin-bottom: 40px;
+
 }
 .privateChannels-1nO12o {
   border-radius: 10px;
@@ -628,7 +576,7 @@ margin: 5px;
 }
 .avatar-1BDn8e.clickable-1bVtEA, /*Chat avatar*/
 .repliedMessage-VokQwo .replyAvatar-1K9Wmr { /*Replying to avatar*/
-    border-radius: var(--avatar-radius);
+    border-radius: var(-avatar-radius);
 }
 .container-3baos1 {
     position: absolute;
@@ -661,7 +609,7 @@ z-index: 101;
   transform: translate(1px, 10px);
 }
 .channelTextArea-2VhZ6z {
-  background-color: rgba(78, 44, 44, 0);
+  background-color: rgba(107, 55, 55, 0);
   transform: translate(1px, -10px);
 }
 .form-2fGMdU {
@@ -679,7 +627,6 @@ app-mount .members-1998pB/*Member List*/ {
  
   border-radius: 10px;;
 }
-
 
 .membersWrap-2h-GB4 {
     position: absolute;
@@ -705,4 +652,124 @@ app-mount .members-1998pB/*Member List*/ {
   background-image:  linear-gradient(326deg, #1421d3 0%, #5f0a87 74%);
   transform: translate(-5px, -4px);
   border-radius: 5px;
+}
+.guilds-1SWlCJ .wrapper-3Njo_c .expandedFolderBackground-1cujaW {
+    left: 10%;
+}
+
+.sidebarRegionScroller-3MXcoP {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    height: 420px;
+    transform: translate(-100px, 180px);
+   border: 5px solid;
+}
+.contentColumnDefault-1VQkGM {
+    padding-left: 20px;
+    padding-right: 0px;
+    border-radius: 10px;
+    margin-left: 100px;
+    
+
+    transform: translate(20px, 0px);
+ 
+}
+.contentRegion-3nDuYy {
+
+    padding-right: 0px;
+    margin-right: 100px;
+    transform: translate(20px, 60px);
+    height: 650px;
+    border: 5px solid;
+    border-radius: 12px;
+    
+}
+.tools-3-3s-N {
+  transform: translate(130px, -50px); 
+}
+.typing-2GQL18 {
+  transform: translate(90%, -770px);
+  background-image: linear-gradient(326deg, #1421d3 0%, #5f0a87 74%);
+  margin-right: 650px;
+  border-radius: 10px;
+  
+}
+
+.scroller-1Bvpku {
+  height: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.cooldownWrapper-3joyFc {
+  transform: translate(0px, -5px);
+}
+
+.typing-2GQL18.base-gE7OpD{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: fit-content;
+    top: -1070%;
+}
+
+.colorDefault-2K3EoJ {
+
+  transform: translate(2px, -2px);
+  background-color: rgba(255, 0, 0, 0);
+}
+.scroller-3BxosC {
+  background-image: linear-gradient(326deg, #1421d3 0%, #5f0a87 74%);
+  border-radius: 20px;
+  transform: translate(-1px, -4px);
+  border-color: red;
+  border: 5px solid;
+ 
+  
+}
+.label-22pbtT {
+  background-color: rgba(255, 0, 0, 0);
+  transform: translate(20px, 0px);
+
+}
+.labelContainer-1BLJti {
+  background-color: rgba(255, 0, 0, 0);
+  border-radius: 20px;
+  transform: translate(0px, 0px);
+}
+.menu-3sdvDG{
+ background-color: rgb(2, 2, 2);
+ border-radius: 20px ;
+}
+.footer-2gL1pp {
+  transform: translate(5px, 2px);
+}
+.content-1LAB8Z {
+  transform: translate(-9.5px, -5px);
+}
+.flex-1xMQg5 {
+  transform: translate(0px, 5px);
+}
+.input-cIJ7To {
+  border-radius: 10px;
+}
+.styleFlexible-wGDiIL {
+  background-color: transparent;
+}
+.justifyBetween-2tTqYu {
+ display: none;
+}
+.content-3YMskv  {
+ padding-left: 0px;
+ padding-right: 10px;
+
+}
+.autocompleteInner-2mQ2AK {
+  background-image: linear-gradient(326deg, #1421d3 0%, #5f0a87 74%);
+  transform: translate(0px, 0px);
+  border-radius: 5px;
+}
+.scroller-lynW5A {
+  border-radius: 5px;
+  transform: translate(0px, -10px);
+  margin-left: -10px;
 }
