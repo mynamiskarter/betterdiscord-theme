@@ -1,26 +1,26 @@
 /**
  * @name SleekVision
- * @version 0.0.3
+ * @version 0.0.1
+ * @source https://github.com/mynamiskarter/betterdiscord-theme
  * @author Mynameiskarter
- * @description This is called SleekVision.
+ * @description This is called SleekVision. If you have any questions or concerns, join this discord server... https://discord.gg/cEpPd3Zjf8
  */
 
 /*
 CHANGELOG:
-V.0.1 | Created, still some bugs but that will be fixed in later updates!
-V.0.2 | added the borders to make it look more appealing, fixed some bugs!
-V.0.3 | Changed the colors up a bit, and moved the profile thing to the top right!
+V.0.1 Created, still some bugs but that will be fixed in later updates!
+ added the borders to make it look more appealing, fixed some bugs!
+ Changed the colors up a bit, and moved the profile thing to the top right!
 */
 
 /*
 Credits:
-DoggyBootsy#0001
+(contributor) DemetriusH#7942 - helped with a little bugs (alignment, color's, layers)
+Frix#7777 - helped with a little bugs (alignment)
 
 
+** this does use some of Dark Matters code. The owner of Dark matter has given permission to use some of the code. There isnt much of his in here. but im giving credit..
 
-This theme originally from dark matter, BUT this is in no way like dark matter.
-it is completely different and redesigned. I only used it for a starter, other than that this is completly my  
-theme, with people that helped
 */
 
 :root {
@@ -39,13 +39,13 @@ theme, with people that helped
     --SleekVision-accent-color : #ffffff;
     --SleekVision-input-box: #272526;
     --SleekVision-mention:  rgba(255, 255, 255, 0);
-    --SleekVision-red: #F40174;
+    --SleekVision-hot-pink: #F40174;
     --SleekVision-svg: #F40174;
-    --SleekVision-less-hot: #af4474;
+    --SleekVision-kinda-gross: #af4474;
   
     display: unset;
     --SleekVision-scrollbar-track: var(--SleekVision-primary);
-    --SleekVision-scrollbar-thumb: var(--SleekVision-red);
+    --SleekVision-scrollbar-thumb: var(--SleekVision-hot-pink);
     
     
     
@@ -87,7 +87,7 @@ html.theme-dark::before{
     --scrollbar-auto-track: var(--SleekVision-scrollbar-track);
     --scrollbar-auto-scrollbar-color-thumb: var(--SleekVision-scrollbar-thumb);
     --scrollbar-auto-scrollbar-color-track: var(--SleekVision-scrollbar-track);
-    --text-link: var(--SleekVision-secondary-alt);
+    --text-link: var(--SleekVision-accent-color);
 }
 .theme-dark .pageWrapper-1PgVDX {
   background-color: var(--background-primary);
@@ -174,10 +174,10 @@ html.theme-dark::before{
   background-color: var(--SleekVision-secondary-alt);
 }
 .theme-dark rect[mask="url(#svg-mask-status-dnd)"] {
-    fill: var(--SleekVision-red);
+    fill: var(--SleekVision-hot-pink);
 }
 .theme-dark .numberBadge-2s8kKX {
-    background-color: var(--SleekVision-red) !important;
+    background-color: var(--SleekVision-hot-pink) !important;
 }
 .theme-dark .open-6_Y_aH {
     background-color: var(--background-secondary);
@@ -220,7 +220,7 @@ html.theme-dark::before{
 }
 
 .theme-dark .colorGrey-2DXtkV {
-  background-color: var(--SleekVision-less-hot);
+  background-color: var(--SleekVision-kinda-gross);
 }
 
 
@@ -351,7 +351,7 @@ color:#625e66;
 .hljs-class,
 .hljs-function
 {
-  color: #FFC800;
+  color: rgb(75, 71, 59);
 
 }
 
@@ -395,9 +395,10 @@ color:#625e66;
 
 .homeIcon-FuNwkv path {fill: transparent}
 .homeIcon-FuNwkv {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/RemixBot.png/640px-RemixBot.png') center/contain no-repeat;
-    min-width: 30px;
-    min-height: 30px;
+    background: url('https://cdn.discordapp.com/attachments/861287156605911111/862052816646307880/20210704_130032.png') center/contain no-repeat;
+    min-width: 55px;
+    min-height:55px;
+    border-radius: 10px;
 }
 
 #status-picker {
@@ -428,7 +429,7 @@ color:#625e66;
 .statusItem-33LqPf > svg {
     width: 16px;
     height: auto;
-   ;
+  
 }
 
 #status-picker .item-1tOPte {
@@ -483,7 +484,7 @@ color:#625e66;
 div[class*="typeWindows-"]::after {
     position: absolute;
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    content: "SleekVision V.0.3";
+    content: "SleekVision V.0.1";
     font-size: 14px;
     font-weight: bold;
     top: px;
@@ -541,9 +542,11 @@ right: 5px;
 
 .canCopy-2VBT7N {
   background-color:transparent;
-  margin-top: 70px;
+  margin-top: -10px;
   margin-right: -152px;
-  transform: translate(15px, -45px);
+  transform: translate(13%, 0px);
+  
+  
 
 }
 .subtext-3CDbHg {
@@ -772,4 +775,73 @@ app-mount .members-1998pB/*Member List*/ {
   border-radius: 5px;
   transform: translate(0px, -10px);
   margin-left: -10px;
+}
+.content-3YMskv {
+  text-align: absolute;
+  left: 5px;
+}
+.inviteRow-2L02ae {
+  background-color: transparent;
+  display: unset;
+  
+}
+.inviteRowButton-3opYo2 {
+  transform: translate(300px, -30px);
+}
+
+.inner-3ErfOT {
+  transform: translate(-10px, -10px);
+}
+.input-1Rv96N {
+border-radius: 5px;
+margin-left: 5px;
+}
+.marginBottom8-AtZOdT {
+  margin-left: 20px;
+}
+.close-hZ94c6  {
+  transform: translate(10px, -5px);
+}
+.theme-dark .inviteRow-2L02ae:hover  {
+ text-align: center;
+background-color: rgba(255, 0, 0, 0);
+}
+.scroller-2hZ97C  {
+  margin-right: 20px;
+  padding-top: 0px;
+
+}
+.searchBar-6Kv8R2 {
+
+  border: 5px solid;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: rgba(2, 2, 2, 0.534);
+  background-color: rgba(0, 0, 0, 0.445);
+}
+.scroller-1JbKMe {
+  border-radius: 10px;
+  width: 230px;
+  margin-bottom: 10px;
+ 
+}
+.listItems-1uJgMC {
+
+  transform: translate(-5px, 0px);
+}
+.header-ywPcAE {
+  background-color: transparent;
+}
+.content-ySCtCx {
+ transform: translate(-5px, -10px);
+ padding-right: 10px;
+}
+.searchBar--fTZYa  {
+  border-radius: 10px;
+}
+.guildInfo-1STtYi {
+  margin: 2px;
+}
+.notice-3bPHh- {
+  display: none;
 }
