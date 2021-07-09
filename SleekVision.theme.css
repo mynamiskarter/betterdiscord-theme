@@ -19,8 +19,6 @@ Credits:
 Frix#7777 - helped with a little bugs (alignment)
 
 
-** this does use some of Dark Matters code. The owner of Dark matter has given permission to use some of the code. There isnt much of his in here. but im giving credit..
-
 */
 
 :root {
@@ -52,7 +50,7 @@ Frix#7777 - helped with a little bugs (alignment)
 }
 
 html.theme-light::before {
-    content: "REEEE TURN IT BACK OFF";
+    content: "REEEE TURN IT BACK OFF, and this isn't meant to be in light mode";
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     color: var(--SleekVision-primary);
     text-align: center;
@@ -575,7 +573,7 @@ margin-bottom: 40px;
 .headerAvatar-2MDZJn svg foreignObject, /*Active now avatars*/
 .avatar-AvHqJA svg foreignObject { /*Profile modal avatar*/
     mask: none;
-    border-radius: var(--avatar-radius);
+    border-radius: var(--avatar-radius)
 }
 .avatar-1BDn8e.clickable-1bVtEA, /*Chat avatar*/
 .repliedMessage-VokQwo .replyAvatar-1K9Wmr { /*Replying to avatar*/
@@ -599,10 +597,11 @@ z-index: 101;
 }
 .tree-2wKJdG {
   background-color: transparent;
-  height: 650px;
-  transform: translate(-0.5px, 90px);
+  height: 80%;
+  margin-top: 90%;
   width: 62px;
 }
+
 .guildSeparator-33mFX6 {
   background-image: linear-gradient(326deg, #1421d3 0%, #5f0a87 74%);
   
@@ -655,6 +654,7 @@ app-mount .members-1998pB/*Member List*/ {
   background-image:  linear-gradient(326deg, #1421d3 0%, #5f0a87 74%);
   transform: translate(-5px, -4px);
   border-radius: 5px;
+  padding: 20px;
 }
 .guilds-1SWlCJ .wrapper-3Njo_c .expandedFolderBackground-1cujaW {
     left: 10%;
@@ -663,9 +663,9 @@ app-mount .members-1998pB/*Member List*/ {
 .sidebarRegionScroller-3MXcoP {
     flex: 0 0 auto;
     margin-right: 20px;
-    height: 420px;
-    transform: translate(-100px, 180px);
-   border: 5px solid;
+    height: 620px;
+    transform: translate(-100px, 70px);
+    border: 5px solid;
 }
 .contentColumnDefault-1VQkGM {
     padding-left: 20px;
@@ -681,8 +681,8 @@ app-mount .members-1998pB/*Member List*/ {
 
     padding-right: 0px;
     margin-right: 100px;
-    transform: translate(20px, 60px);
-    height: 650px;
+    transform: translate(20px, 20px);
+    height: 750px;
     border: 5px solid;
     border-radius: 12px;
     
@@ -698,11 +698,6 @@ app-mount .members-1998pB/*Member List*/ {
   
 }
 
-.scroller-1Bvpku {
-  height: 90%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
 .cooldownWrapper-3joyFc {
   transform: translate(0px, -5px);
 }
@@ -850,4 +845,43 @@ margin: 5px;
 border-radius: 10px;
 
 
+}
+.infoScroller-1Qu30O {
+  transform: translate(-10px, -10px);
+}
+.listScroller-3GmIYj  {
+  transform: translate(-10px, -10px);
+}
+.button-2IFFQ4 {
+  transform: translate(0px, -70px);
+  width: 150px;
+}
+.spotifyButtonLogo-3uT57D {
+  transform: translate(0px, -12px);
+}
+.content-yTz4x3:before {
+  display: none;
+}
+.applicationStore-1pNvnv {
+  height: 750px;
+  border-radius: 10px;
+  margin: 50px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.562);
+ 
+}
+.themed-ANHk51
+{
+  border-radius: 10px;
+}
+.scroller-9moviB  {
+  margin: 10px;
+  transform: translate(-10px, 0px);
+}
+.body-3HBlXn {
+margin-right: 16px;
+transform: translate(0px, -10px);
+}
+.avatar-1BDn8e  {
+  border-radius: 10px;
 }
