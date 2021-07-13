@@ -27,6 +27,7 @@ Frix#7777 - helped with a little bugs (alignment)
     --avatar-radius: 10px;
     --settingsiconssize: 18px;
     --settingsiconsgap: 14px;
+  
     
 
     
@@ -61,7 +62,7 @@ html.theme-light::before {
     left: 0;
 }
 html.theme-dark::before{
-    content: "Feel free to share this theme with your friends!";
+    content: "Feel free to share this theme with your friends! https://discord.gg/cEpPd3Zjf8";
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     color: var(--SleekVision-secondary);
     text-align: center;
@@ -653,7 +654,7 @@ app-mount .members-1998pB/*Member List*/ {
 } 
 .bodyInnerWrapper-26fQXj {
   background-image:  linear-gradient(326deg, #1421d3 0%, #5f0a87 74%);
-  transform: translate(-5px, -4px);
+  transform: translate(0%, -4px);
   border-radius: 5px;
   padding: 20px;
 }
@@ -665,8 +666,9 @@ app-mount .members-1998pB/*Member List*/ {
     flex: 0 0 auto;
     margin-right: 20px;
     height: 620px;
-    transform: translate(-100px, 70px);
+    transform: translate(-50px, 70px);
     border: 5px solid;
+    display: inline-block;
 }
 .contentColumnDefault-1VQkGM {
     padding-left: 20px;
@@ -682,14 +684,16 @@ app-mount .members-1998pB/*Member List*/ {
 
     padding-right: 0px;
     margin-right: 100px;
-    transform: translate(20px, 20px);
+    transform: translate(00px, 20px);
     height: 750px;
     border: 5px solid;
     border-radius: 12px;
+    display: inline-block;
     
 }
 .tools-3-3s-N {
-  transform: translate(130px, -50px); 
+  transform: translate(100px, -50px); 
+  display: inline-block;
 }
 .typing-2GQL18 {
   transform: translate(90%, -770px);
@@ -726,8 +730,8 @@ app-mount .members-1998pB/*Member List*/ {
   
 }
 .label-22pbtT {
-  background-color: rgba(255, 0, 0, 0);
-  transform: translate(20px, 0px);
+  background-color: rgba(255, 0, 0, 0);  
+ transform: translate(10px, 0px);
 
 }
 .labelContainer-1BLJti {
@@ -876,8 +880,7 @@ border-radius: 10px;
   border-radius: 10px;
 }
 .scroller-9moviB  {
-  margin: 10px;
-  transform: translate(-10px, 0px);
+  margin: 10px;  transform: translate(-10px, 0px);
 }
 .body-3HBlXn {
 margin-right: 16px;
@@ -885,4 +888,28 @@ transform: translate(0px, -10px);
 }
 .avatar-1BDn8e  {
   border-radius: 10px;
+}
+.submenuContainer-2gbm7M {
+  display: unset;
+}
+.floating-window {
+  border-radius: 10px;
+}
+.controls-section controls-left {
+  position: absolute;
+  z-index: 100;
+  
+}
+.unreadTop-3rAB3r {
+  transform: translate(10px, 5px);
+}
+.unreadBottom-1_LF_w {
+  transform: translate(10px, 15px);
+}
+.channelNotice-1-XFjC {
+  border: 5px solid;
+  border-radius: 10px;
+  margin: 5px;
+  transform: translate(10px, 0px);
+  background-color: rgba(0, 0, 0, 0.562);
 }
