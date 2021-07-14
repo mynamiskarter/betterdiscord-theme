@@ -22,6 +22,7 @@ Frix#7777 - helped with a little bugs (alignment)
 
 */
 
+
 :root {
 
     --avatar-radius: 10px;
@@ -912,4 +913,22 @@ transform: translate(0px, -10px);
   margin: 5px;
   transform: translate(10px, 0px);
   background-color: rgba(0, 0, 0, 0.562);
+}
+.peopleList-3c4jOR  {
+  margin: 20px;
+  display: inline-block;
+  transform: translate(0px, -12px);
+}
+.nowPlayingColumn-2sl4cE{
+  margin: 20px;
+  display: inline-block;
+  transform: translate(-10px, -12px);
+
+}
+.markdown-11q6EU {
+  transform: translate(15%, 15px);
+}
+.wrapper-1sSZUt {
+  display: inline-block;
+  transform: translate(55%, 0px);
 }
