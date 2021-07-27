@@ -14,6 +14,6 @@ this theme is inspired by my room LED's... Pink and blue mixed. This theme took 
 ![8](https://user-images.githubusercontent.com/86696456/127241544-2a99ab66-ebf7-42ee-aefe-59178cf38cf7.PNG)
 
 
-( btw, the BLM thing says biden likes minore :) )
+( btw, the BLM thing says biden likes minors :) )
 
 
