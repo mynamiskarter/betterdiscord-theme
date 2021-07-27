@@ -1,5 +1,5 @@
 
-# SleekVision
+# SleekVision V.0.1
 
 this theme is inspired by my room LED's... Pink and blue mixed. This theme took me over a month to make, I would appreciate if you shared this theme and give me feedback on this theme. I am really proud of what I have made and shall continue to update it. There is still some bugs that I know of, but it'll be fixed. Currently the biggest issue is the vc. Everything to do with vc just doesnt wanna cooperate with me.. But ill get that fixed. Other than that enjoy these pictures of my theme.
 -karter
