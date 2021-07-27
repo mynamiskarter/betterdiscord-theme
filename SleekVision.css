@@ -958,3 +958,7 @@ transform: translate(0px, -10px);
   height: 90px;
   transform: translate(0%, 5%);
 }
+  .wrapper-25eVIn {
+  background-color: var(--SleekVision-primary);
+  border-radius: var(--avatar-radius);
+}
