@@ -1,41 +1,3 @@
-html.theme-light::before {
-    content: "REEEE TURN IT BACK OFF, and this isn't meant to be in light mode";
-    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    color: var(--SleekVision-primary);
-    text-align: center;
-    position: absolute;
-    z-index: 10001;
-    right: 0;
-    left: 0;
-}
-html.theme-dark::before{
-    content: "Feel free to share this theme with your friends! https://discord.gg/cEpPd3Zjf8";
-    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    color: var(--SleekVision-secondary);
-    text-align: center;
-    position: absolute;
-    z-index: 10001;
-    right: 0;
-    left: 0;
-}
-.theme-dark {
-  
-    --background-primary: var(--SleekVision-primary);
-    --background-secondary: var(--SleekVision-primary);
-    --background-secondary-alt: var(--SleekVision-secondary-alt);
-    --background-floating: var(--SleekVision-secondary);
-    --background-tertiary: var(--SleekVision-tertiary);
-    --background-accent: var(--background-primary);
-    --background-mentioned-side:#0000006c;
-    --interactive-active: var(--SleekVision-accent-color);
-    --radio-group-dot-foreground: var(--SleekVision-accent-color);
-    --channeltextarea-background: #0000006c;
-    --scrollbar-auto-thumb: var(--SleekVision-scrollbar-thumb);
-    --scrollbar-auto-track: var(--SleekVision-scrollbar-track);
-    --scrollbar-auto-scrollbar-color-thumb: var(--SleekVision-scrollbar-thumb);
-    --scrollbar-auto-scrollbar-color-track: var(--SleekVision-scrollbar-track);
-    --text-link: var(--SleekVision-accent-color);
-}
 .theme-dark .pageWrapper-1PgVDX {
   background-color: var(--background-primary);
 }
@@ -465,12 +427,13 @@ div[class*="typeWindows-"]::after {
 }
 
 .scrollerBase-289Jih {
-  background-color: rgba(0, 0, 0, 0.562);
+  background-color: rgba(0, 0, 0, 0.473);
   border-radius: 10px;
   left: 10px;
   top: 10px;
   margin-left: -5px;
   border: 5px solid;
+ 
  
 
   
@@ -481,7 +444,6 @@ div[class*="typeWindows-"]::after {
   border-radius: 10px;
   margin-right: 12px;
   max-width: 100%;
-
 
   
 }
@@ -495,10 +457,13 @@ right: 7.5px;
     display: none;
 }
 .hasBanner-2SrLR3 .header-2V-4Sw, .hasBanner-2SrLR3 .header-2V-4Sw:hover{
-    background-color:  rgba(2, 2, 2, 0.322);
+    background-color:  rgba(2, 2, 2, 0.24);
     border-radius: 10px;
-    right: -3%;
+    right: -2.5%;
+    top: 10%;
+    width: 232px;
     border: 4px solid black;
+    
   
 }
 .iconTierOne-s_oiRb, .iconTierTwo-1JOWNK {
@@ -566,7 +531,7 @@ z-index: 101;
   
 }
 .webkit-HjD9Er{
-  background-image: rgba(0, 0, 0, 0.562);
+  background-image: rgba(0, 0, 0, 0.473);
   transform: translate(1px, 10px);
   border: 5px solid;
 }
@@ -602,13 +567,16 @@ app-mount .members-1998pB/*Member List*/ {
 }
 .members-1998pB {
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.562);
+    background-color: rgba(0, 0, 0, 0.473);
+    height: 578px;
    
 }
 .members-1998pB > div {
     background-color: transparent;
 }
-.chatContent-a9vAAp{position:relative;margin-right: 250px;
+.chatContent-a9vAAp{
+    position:relative;
+    margin-right: 252px;
 }
 
 
@@ -750,6 +718,7 @@ app-mount .members-1998pB/*Member List*/ {
 .content-3YMskv {
   text-align: absolute;
   left: 5px;
+  
 }
 .inviteRow-2L02ae {
   background-color: transparent;
@@ -784,17 +753,21 @@ background-color: rgba(255, 0, 0, 0);
 }
 .searchBar-6Kv8R2 {
 
-  border: 5px solid ;
+  border: 5px solid black ;
   margin-left: 10px;
   border-radius: 10px;
-  border-color: rgba(2, 2, 2, 0.534);
-  background-color: rgba(0, 0, 0, 0.445);
+  background-color: rgba(0, 0, 0, 0.473);
   transform: translate(-2%);
+  max-height: 38px;
+  top: 5px;
 }
 .scroller-1JbKMe {
   border-radius: 10px;
   width: 230px;
   margin-bottom: 10px;
+  max-height: 580px;
+  top: 1.5%;
+  
  
 }
 .listItems-1uJgMC {
@@ -844,7 +817,7 @@ border-radius: 10px;
   border-radius: 10px;
   margin: 50px;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.562);
+  background-color: rgba(0, 0, 0, 0.473);
  
 }
 .themed-ANHk51
@@ -883,7 +856,7 @@ transform: translate(0px, -10px);
   border-radius: 10px;
   margin: 5px;
   transform: translate(10px, 0px);
-  background-color: rgba(0, 0, 0, 0.562);
+  background-color: rgba(0, 0, 0, 0.473);
 }
 .peopleList-3c4jOR  {
   margin: 20px;
@@ -909,8 +882,10 @@ transform: translate(0px, -10px);
 
 .container-1r6BKw.themed-ANHk51 {
   border: 5px solid black;
-  background-color: rgba(0, 0, 0, 0.37);
+  background-color: rgba(0, 0, 0, 0.473);
   top: 5px;
+  right: -5px;
+  width: 1045px;
 }
 .body-r6_QPy {
  
@@ -925,7 +900,7 @@ transform: translate(0px, -10px);
   padding: 10px;
   border: 5px solid;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.37);;
+  background-color: rgba(0, 0, 0, 0.473);
 }
 .banner-2QYc2d {
  border-radius: 10px;
@@ -945,11 +920,11 @@ transform: translate(0px, -10px);
   border: 5px solid black;
 }
 .expandable-3khGbD {
-  background-color: rgba(0, 0, 0, 0.589);
+  background-color:rgba(0, 0, 0, 0.473);
   border-radius: 10px;
 }
 .comment-4IWttf {
-  background-color: rgba(0, 0, 0, 0.589);
+  background-color: rgba(0, 0, 0, 0.473);
   border-radius: 10px;
   padding-top: 10px;
   padding-right: 5px;
@@ -961,4 +936,16 @@ transform: translate(0px, -10px);
   .wrapper-25eVIn {
   background-color: var(--SleekVision-primary);
   border-radius: var(--avatar-radius);
+}
+.channelTextArea-rNsIhG {
+    width: 795px;
+    right: 13px;
+    top: 2px;
+    
+}
+.scroller-RmtA4e {
+max-height: 580px;
+}
+.scroller-1Bvpku{
+  max-height: 545px;
 }
