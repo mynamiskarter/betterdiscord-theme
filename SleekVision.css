@@ -629,6 +629,7 @@ app-mount .members-1998pB/*Member List*/ {
     border: 5px solid;
     border-radius: 12px;
     display: inline-block;
+    max-width: 100%;
     
     
 }
