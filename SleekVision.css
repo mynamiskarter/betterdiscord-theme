@@ -173,7 +173,7 @@ html.theme-dark::before{
 
 .botTagRegular-2HEhHi {
   transition: .5s;
-  background: rgba(228, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   color: #7289da;
 }
 .botTagRegular-2HEhHi:hover {
@@ -382,6 +382,12 @@ color:#625e66;
 #status-picker .item-1tOPte {
     margin: 0;
     width: 250%;
+    border-radius: 10px;
+    right: 1%;
+    
+}
+.clearStatusButton-1Mxs1q {
+  right: -10px;
 }
 
 #status-picker .status-1fhblQ,
@@ -412,6 +418,8 @@ color:#625e66;
 .menu-3sdvDG {
     animation: custom-menu-animation 250ms ease;
     transform-origin: top;
+    right: 0%;
+  
     
 }
 
@@ -453,6 +461,7 @@ div[class*="typeWindows-"]::after {
 
 .guilds-1SWlCJ {
   background: transparent;
+ 
 }
 
 .scrollerBase-289Jih {
@@ -460,7 +469,8 @@ div[class*="typeWindows-"]::after {
   border-radius: 10px;
   left: 10px;
   top: 10px;
-  margin-left: -1px;
+  margin-left: -5px;
+  border: 5px solid;
  
 
   
@@ -470,19 +480,26 @@ div[class*="typeWindows-"]::after {
   background-color: var(--SleekVision-primary);
   border-radius: 10px;
   margin-right: 12px;
+  max-width: 100%;
+
+
   
 }
 
 .listItem-GuPuDH {
-right: 5px;
+right: 7.5px;
+
 
 }
 .animatedContainer-1NSq4T, .content-3YMskv [style="height: 84px;"], .bannerImage-3KhIJ6{
     display: none;
 }
 .hasBanner-2SrLR3 .header-2V-4Sw, .hasBanner-2SrLR3 .header-2V-4Sw:hover{
-    color: var(--header-primary);
-    box-shadow: var(--elevation-low)
+    background-color:  rgba(2, 2, 2, 0.322);
+    border-radius: 10px;
+    right: -3%;
+    border: 4px solid black;
+  
 }
 .iconTierOne-s_oiRb, .iconTierTwo-1JOWNK {
     color: var(--text-muted);
@@ -520,7 +537,7 @@ right: 5px;
 }
 .container-3baos1 {
     position: absolute;
-    top: 0;
+    top: 0.5%;
     right: 0;
     height: 48px;
     width: 220px;
@@ -529,16 +546,19 @@ right: 5px;
 
 .sidebar-2K8pFh {
 z-index: 101;
+
 }
 
 .container-1r6BKw {
     padding-right: 220px;
+
 }
 .tree-2wKJdG {
   background-color: transparent;
   height: 80%;
   margin-top: 90%;
   width: 62px;
+ 
 }
 
 .guildSeparator-33mFX6 {
@@ -548,10 +568,12 @@ z-index: 101;
 .webkit-HjD9Er{
   background-image: rgba(0, 0, 0, 0.562);
   transform: translate(1px, 10px);
+  border: 5px solid;
 }
 .channelTextArea-2VhZ6z {
   background-color: rgba(107, 55, 55, 0);
   transform: translate(1px, -10px);
+ 
 }
 .form-2fGMdU {
   background-color: rgba(0, 0, 0, 0);
@@ -559,7 +581,7 @@ z-index: 101;
   
 }
 .unreadMentionsIndicatorBottom-2mDYbI, .unreadMentionsIndicatorTop-2-tcdU{ /*Removes the unread messages notification from the server list*/
-    transform: translate(4px, 10px);
+    transform: translate(4px,100%);
 }
 app-mount .members-1998pB/*Member List*/ {
   background-color: red;
@@ -571,14 +593,17 @@ app-mount .members-1998pB/*Member List*/ {
 
 .membersWrap-2h-GB4 {
     position: absolute;
-    right: 1%;
+    right: 1.2%;
     top: 0;
     height: 95%;
+    max-width: 100%;
+
 
 }
 .members-1998pB {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.562);
+   
 }
 .members-1998pB > div {
     background-color: transparent;
@@ -597,7 +622,10 @@ app-mount .members-1998pB/*Member List*/ {
   padding: 20px;
 }
 .guilds-1SWlCJ .wrapper-3Njo_c .expandedFolderBackground-1cujaW {
-    left: 10%;
+    left: 7%;
+    border-radius: 10px;
+ 
+
 }
 
 .sidebarRegionScroller-3MXcoP {
@@ -608,6 +636,7 @@ app-mount .members-1998pB/*Member List*/ {
     border: 5px solid;
     display: inline-block;
     position: fixed;
+    max-width: 100%;
 
 }
 .contentColumnDefault-1VQkGM {
@@ -626,7 +655,7 @@ app-mount .members-1998pB/*Member List*/ {
     margin-right: 100px;
     transform: translate(1%, 5%);
     height: 650px;
-    border: 5px solid;
+    
     border-radius: 12px;
     display: inline-block;
     max-width: 100%;
@@ -642,6 +671,7 @@ app-mount .members-1998pB/*Member List*/ {
   background-image: linear-gradient(326deg, #1421d3 0%, #5f0a87 74%);
   margin-right: 650px;
   border-radius: 10px;
+
   
 }
 
@@ -650,11 +680,12 @@ app-mount .members-1998pB/*Member List*/ {
 }
 
 .typing-2GQL18.base-gE7OpD{
-    position: absolute;
+    position: fixed;
     left: 50%;
     transform: translate(-50%);
     width: fit-content;
-    top: -1070%;
+    top: -750%;
+    
 }
 
 .colorDefault-2K3EoJ {
@@ -665,9 +696,10 @@ app-mount .members-1998pB/*Member List*/ {
 .scroller-3BxosC {
   background-image: linear-gradient(326deg, #1421d3 0%, #5f0a87 74%);
   border-radius: 20px;
-  transform: translate(-1px, -4px);
-  border-color: red;
+  transform: translate(1%, -2%);
+  border-color: black;
   border: 5px solid;
+  
  
   
 }
@@ -752,11 +784,12 @@ background-color: rgba(255, 0, 0, 0);
 }
 .searchBar-6Kv8R2 {
 
-  border: 5px solid;
+  border: 5px solid ;
   margin-left: 10px;
   border-radius: 10px;
   border-color: rgba(2, 2, 2, 0.534);
   background-color: rgba(0, 0, 0, 0.445);
+  transform: translate(-2%);
 }
 .scroller-1JbKMe {
   border-radius: 10px;
@@ -869,4 +902,59 @@ transform: translate(0px, -10px);
 .wrapper-1sSZUt {
   display: inline-block;
   transform: translate(55%, 0px);
+}
+.styleFixed-sX-yHV {
+  background-color: transparent;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+  border: 5px solid black;
+  background-color: rgba(0, 0, 0, 0.37);
+  top: 5px;
+}
+.body-r6_QPy {
+ 
+  background-color: transparent;
+  padding: 10px;
+  padding-left: 15px;
+}
+.topSection-y3p-_D {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border: 5px solid;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.37);;
+}
+.banner-2QYc2d {
+ border-radius: 10px;
+ width: 100%;
+ transform: translate(0%);
+
+}
+.wrapper-3t9DeA {
+  border-radius: var(--avatar-radius);
+ 
+}
+.inner-1ilYF7 {
+  border: 5px solid black;
+ 
+}
+.scrollableContainer-2NUZem {
+  border: 5px solid black;
+}
+.expandable-3khGbD {
+  background-color: rgba(0, 0, 0, 0.589);
+  border-radius: 10px;
+}
+.comment-4IWttf {
+  background-color: rgba(0, 0, 0, 0.589);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  height: 90px;
+  transform: translate(0%, 5%);
 }
