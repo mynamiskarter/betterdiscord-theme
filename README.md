@@ -1,15 +1,19 @@
 
 # SleekVision
 
-this theme is inspired by my room LED's... Pink and blue mixed.
+this theme is inspired by my room LED's... Pink and blue mixed. This theme took me over a month to make, I would appreciate if you shared this theme and give me feedback on this theme. I am really proud of what I have made and shall continue to update it. There is still some bugs that I know of, but it'll be fixed. Currently the biggest issue is the vc. Everything to do with vc just doesnt wanna cooperate with me.. But ill get that fixed. Other than that enjoy these pictures of my theme.
+-karter
+
+![1](https://user-images.githubusercontent.com/86696456/127241526-05cf2546-804d-4d56-b0cb-80590047e9e1.PNG)
+![2](https://user-images.githubusercontent.com/86696456/127241530-ee5c2f0c-4ae3-43d1-84c1-fe251666465a.PNG)
+![3](https://user-images.githubusercontent.com/86696456/127241532-8bf96417-0fe4-4ac7-a268-e2ae06e42319.PNG)
+![4](https://user-images.githubusercontent.com/86696456/127241533-fed09056-8b7b-41de-ae3f-cfa9748c4af5.PNG)
+![5](https://user-images.githubusercontent.com/86696456/127241535-7c71a6e2-37c4-4e85-84a9-1662a75b6a68.PNG)
+![6](https://user-images.githubusercontent.com/86696456/127241539-9b150d42-2ce9-4ff5-ab71-f8ab4afc469c.PNG)
+![7](https://user-images.githubusercontent.com/86696456/127241541-868d9acb-a877-402c-aac9-dbc01d58c2a5.PNG)
+![8](https://user-images.githubusercontent.com/86696456/127241544-2a99ab66-ebf7-42ee-aefe-59178cf38cf7.PNG)
 
 
-![capture 1](https://user-images.githubusercontent.com/86696456/127087081-e50361ca-2236-473b-95d9-0ab94d723215.PNG)
-![capture 2](https://user-images.githubusercontent.com/86696456/127087094-b37ef29a-0ac7-41db-b044-c596a56546db.PNG)
-![capture 3](https://user-images.githubusercontent.com/86696456/127087100-9a616ae4-4000-4a9a-97f3-0ff3865189ba.PNG)
-![capture 4](https://user-images.githubusercontent.com/86696456/127087109-394d75a4-e4ae-4369-a1dd-6af77555bdc3.PNG)
-![capture 5](https://user-images.githubusercontent.com/86696456/127087113-d3b72fe0-e9ef-4a04-9f79-c645ce6d6ba6.PNG)
-![capture 6](https://user-images.githubusercontent.com/86696456/127087118-1eb9c730-4036-40d4-8c83-846ac377eb78.PNG)
-![capture 7](https://user-images.githubusercontent.com/86696456/127087122-98601388-9794-42b0-b1c9-d26462ac2edd.PNG)
-![Capture](https://user-images.githubusercontent.com/86696456/127087132-9e7e275b-b463-4ef4-9562-242e6732c826.PNG)
+( btw, the BLM thing says biden likes minore :) )
+
 
