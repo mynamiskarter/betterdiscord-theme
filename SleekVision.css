@@ -1,3 +1,7 @@
+/*
+I really reccomend you dont turn on light mode, it is not meant for light mode. so dont use it please. Maybe in a later update it'll be able to do light mode, just for now dont use it
+*/
+
 html.theme-light::before {
     content: "REEEE TURN IT BACK OFF, and this isn't meant to be in light mode";
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
