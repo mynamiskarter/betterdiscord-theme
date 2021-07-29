@@ -1,3 +1,42 @@
+html.theme-light::before {
+    content: "REEEE TURN IT BACK OFF, and this isn't meant to be in light mode";
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: var(--SleekVision-primary);
+    text-align: center;
+    position: absolute;
+    z-index: 10001;
+    right: 0;
+    left: 0;
+}
+html.theme-dark::before{
+    content: "Feel free to share this theme with your friends! https://discord.gg/cEpPd3Zjf8";
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: var(--SleekVision-secondary);
+    text-align: center;
+    position: absolute;
+    z-index: 10001;
+    right: 0;
+    left: 0;
+}
+.theme-dark {
+  
+    --background-primary: var(--SleekVision-primary);
+    --background-secondary: var(--SleekVision-primary);
+    --background-secondary-alt: var(--SleekVision-secondary-alt);
+    --background-floating: var(--SleekVision-secondary);
+    --background-tertiary: var(--SleekVision-tertiary);
+    --background-accent: var(--background-primary);
+    --background-mentioned-side:#0000006c;
+    --interactive-active: var(--SleekVision-accent-color);
+    --radio-group-dot-foreground: var(--SleekVision-accent-color);
+    --channeltextarea-background: #0000006c;
+    --scrollbar-auto-thumb: var(--SleekVision-scrollbar-thumb);
+    --scrollbar-auto-track: var(--SleekVision-scrollbar-track);
+    --scrollbar-auto-scrollbar-color-thumb: var(--SleekVision-scrollbar-thumb);
+    --scrollbar-auto-scrollbar-color-track: var(--SleekVision-scrollbar-track);
+    --text-link: var(--SleekVision-accent-color);
+}
+
 .theme-dark .pageWrapper-1PgVDX {
   background-color: var(--background-primary);
 }
@@ -461,8 +500,9 @@ right: 7.5px;
     border-radius: 10px;
     right: -2.5%;
     top: 10%;
-    width: 232px;
-    border: 4px solid black;
+    width: 101%;
+    border: 5px solid black;
+    position: relative;
     
   
 }
@@ -542,8 +582,8 @@ z-index: 101;
 }
 .form-2fGMdU {
   background-color: rgba(0, 0, 0, 0);
-  transform: translate(1px, 10px);
-  
+  position: relative;
+  max-width: 100%;
 }
 .unreadMentionsIndicatorBottom-2mDYbI, .unreadMentionsIndicatorTop-2-tcdU{ /*Removes the unread messages notification from the server list*/
     transform: translate(4px,100%);
@@ -557,26 +597,28 @@ app-mount .members-1998pB/*Member List*/ {
 }
 
 .membersWrap-2h-GB4 {
-    position: absolute;
-    right: 1.2%;
+    position: relative;
     top: 0;
-    height: 95%;
+    height: 100%;
     max-width: 100%;
+    right: 1.2%;
 
 
 }
 .members-1998pB {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.473);
-    height: 578px;
+    height: 91%;
    
 }
 .members-1998pB > div {
     background-color: transparent;
 }
 .chatContent-a9vAAp{
-    position:relative;
-    margin-right: 252px;
+    position: relative;
+    width: 65%;
+    margin-right: 13px;
+
 }
 
 
@@ -599,7 +641,7 @@ app-mount .members-1998pB/*Member List*/ {
 .sidebarRegionScroller-3MXcoP {
     flex: 0 0 auto;
     margin-right: 20px;
-    height: 620px;
+    height: 80%;
     transform: translate(30%, 10%);
     border: 5px solid;
     display: inline-block;
@@ -622,8 +664,7 @@ app-mount .members-1998pB/*Member List*/ {
     padding-right: 0px;
     margin-right: 100px;
     transform: translate(1%, 5%);
-    height: 650px;
-    
+    height: 90%;
     border-radius: 12px;
     display: inline-block;
     max-width: 100%;
@@ -631,8 +672,10 @@ app-mount .members-1998pB/*Member List*/ {
     
 }
 .tools-3-3s-N {
-  transform: translate(100px, -50px); 
+
   display: inline-block;
+  margin-left: 80px;
+  position: relative;
 }
 .typing-2GQL18 {
   transform: translate(90%, -770px);
@@ -765,7 +808,7 @@ background-color: rgba(255, 0, 0, 0);
   border-radius: 10px;
   width: 230px;
   margin-bottom: 10px;
-  max-height: 580px;
+  max-height: 90%;
   top: 1.5%;
   
  
@@ -885,7 +928,7 @@ transform: translate(0px, -10px);
   background-color: rgba(0, 0, 0, 0.473);
   top: 5px;
   right: -5px;
-  width: 1045px;
+  max-width: 99.2%;
 }
 .body-r6_QPy {
  
@@ -938,14 +981,20 @@ transform: translate(0px, -10px);
   border-radius: var(--avatar-radius);
 }
 .channelTextArea-rNsIhG {
-    width: 795px;
-    right: 13px;
-    top: 2px;
+    max-width: 100%;
+    top: 12px;
     
 }
 .scroller-RmtA4e {
-max-height: 580px;
+max-height: 90%;
+position: relative;
 }
 .scroller-1Bvpku{
-  max-height: 545px;
+  max-height: 100%;
+}
+.markdown-11q6EU {
+transform: translate(5%, 40%);  
+}
+.focusLock-Ns3yie {
+  border: 5px solid black; 
 }
