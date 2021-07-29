@@ -1002,3 +1002,17 @@ transform: translate(5%, 40%);
 .focusLock-Ns3yie {
   border: 5px solid black; 
 }
+.header-2V-4Sw {
+    position: relative;
+
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.438);
+    max-height: 100%;
+    left:4%;
+    top: 10%
+}
+.expandedFolderBackground-1cujaW {
+    max-width: 80%;
+}
+
