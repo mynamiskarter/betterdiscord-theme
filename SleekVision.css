@@ -22,6 +22,35 @@ html.theme-dark::before{
     right: 0;
     left: 0;
 }
+/*
+.theme-light {
+  
+    --background-primary: rgb(177, 176, 176);
+    --background-secondary: rgb(176, 176, 177);
+    --background-secondary-alt: rgb(177, 176, 176);
+    --background-floating: rgb(177, 176, 176);
+    --background-tertiary: rgb(176, 176, 177);
+    --background-accent: rgb(177, 176, 176);
+    --background-mentioned-side:#0000006c;
+    --interactive-active: rgb(177, 176, 176);
+    --radio-group-dot-foreground: rgb(177, 176, 176);
+    --channeltextarea-background: #0000006c;
+    --scrollbar-auto-thumb: rgb(177, 176, 176);
+    --scrollbar-auto-track: rgb(177, 176, 176);
+    --scrollbar-auto-scrollbar-color-thumb: rgb(177, 176, 176);
+    --scrollbar-auto-scrollbar-color-track: rgb(177, 176, 176);
+    --text-link: rgb(177, 176, 176);
+    
+}
+.theme-light .container-3w7J-x {
+    background-color: rgb(177, 176, 176);
+}
+.theme-light svg {
+    color: var(--SleekVision-svg);
+}
+*/
+
+
 .theme-dark {
   
     --background-primary: var(--SleekVision-primary);
