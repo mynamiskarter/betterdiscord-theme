@@ -376,10 +376,11 @@ color:#625e66;
 
 .homeIcon-FuNwkv path {fill: transparent}
 .homeIcon-FuNwkv {
-    background: url('https://cdn.discordapp.com/attachments/861287156605911111/862052816646307880/20210704_130032.png') center/contain no-repeat;
-    min-width: 55px;
-    min-height:55px;
+    background: url('https://cdn.discordapp.com/attachments/859924156182560808/870770030525161483/Untitled_2.jpg') center/contain no-repeat;
+    min-width: 47px;
+    min-height:47px;
     border-radius: 10px;
+    transform: translate(-1%);
 }
 
 #status-picker {
@@ -1216,10 +1217,7 @@ transform: translate(10%);
 .carousel-6MSnEI {
     transform: translate(-13%);
 }
-.inner-1ilYF7 {
- 
-    height: 50%;
-}
+
 .uploadModal-2ifh8j {
     border-radius: 10px;
     border: 5px solid black;
