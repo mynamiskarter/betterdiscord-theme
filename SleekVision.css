@@ -699,7 +699,8 @@ app-mount .members-1998pB/*Member List*/ {
     left: 50%;
     transform: translate(-50%);
     width: fit-content;
-    top: -750%;
+    top: 10%;
+
     
 }
 
@@ -1015,4 +1016,3 @@ transform: translate(5%, 40%);
 .expandedFolderBackground-1cujaW {
     max-width: 80%;
 }
-
