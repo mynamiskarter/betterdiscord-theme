@@ -524,7 +524,7 @@ right: 7.5px;
     background-color:  rgba(2, 2, 2, 0.24);
     border-radius: 10px;
     right: -2.5%;
-    top: 10%;
+    top: 10.5%;
     width: 101%;
     border: 5px solid black;
     position: relative;
@@ -702,7 +702,7 @@ app-mount .members-1998pB/*Member List*/ {
 .tools-3-3s-N {
 
   display: inline-block;
-  margin-left: 80px;
+  margin-left: 100px;
   position: relative;
 }
 .typing-2GQL18 {
@@ -1029,13 +1029,12 @@ transform: translate(5%, 40%);
 }
 .header-2V-4Sw {
     position: relative;
-
     border: 5px solid black;
-    border-radius: 10px;
+    
     background-color: rgba(0, 0, 0, 0.438);
-    max-height: 100%;
-    left:4%;
-    top: 10%
+    max-height: 96.5%;
+    left:3%;
+  
 }
 .expandedFolderBackground-1cujaW {
     max-width: 80%;
@@ -1156,7 +1155,7 @@ max-width: 99%;
   margin: 20px;
 }
 .children-rWhLdy {
-  transform: translate(10%);
+transform: translate(10%);
 }
 .inputWrapper-2YCfto {
   transform: translate(-8%);
@@ -1195,4 +1194,42 @@ max-width: 99%;
 .bd-addon-header {
   border-radius: 5px;
   
+}
+.perksModal-fSYqOq {
+    border-radius: 10px;
+    max-height: 80%;
+    max-width: 80%;
+    transform: translate(13%, 10%);
+    
+    
+}
+.closeContent-I3JbQJ {
+    position: fixed;
+    bottom: 650px;
+    right: 350px;
+  
+
+     
+}
+.carousel-6MSnEI {
+    transform: translate(-13%);
+}
+.inner-1ilYF7 {
+ 
+    height: 50%;
+}
+.uploadModal-2ifh8j {
+    border-radius: 10px;
+    border: 5px solid black;
+    max-height: 100%;
+
+}
+.footer-3mqk7D  {
+    border-radius: 10px;
+}
+.clipContainer-eeROt0 {
+    background-color: transparent;
+    transform: translate(0%, 30%);
+
+
 }
