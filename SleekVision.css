@@ -477,9 +477,12 @@ div[class*="typeWindows-"]::after {
   margin-left: -5px;
   border: 5px solid;
  
- 
-
-  
+}
+.scroller-3gAZLs {
+  border: none;
+  top: 0;
+  left: 5px;
+  flex: 0 1 95%;
 }
 
 .container-3w7J-x {
@@ -536,7 +539,7 @@ right: 7.5px;
 .container-3baos1 .avatar-SmRMf2 svg foreignObject, /*Status bar avatar*/
 .wrapper-25eVIn svg foreignObject, /*Guilds avatars*/
 .headerAvatar-2MDZJn svg foreignObject, /*Active now avatars*/
-.avatar-AvHqJA svg foreignObject { /*Profile modal avatar*/
+.avatar-AvHqJA svg foreignObject { /*Profile modal avatar*/ /*this theme is made my mynameiskarter*/
     mask: none;
     border-radius: var(--avatar-radius)
 }
@@ -631,9 +634,12 @@ app-mount .members-1998pB/*Member List*/ {
 } 
 .bodyInnerWrapper-26fQXj {
   background-image:  linear-gradient(326deg, #1421d3 0%, #5f0a87 74%);
-  transform: translate(0%, -4px);
+  transform: translate(-3%, -4px);
   border-radius: 5px;
-  padding: 20px;
+  padding: 5px;
+  border: 5px solid black;
+  width: 98%;
+ 
 }
 .guilds-1SWlCJ .wrapper-3Njo_c .expandedFolderBackground-1cujaW {
     left: 7%;
@@ -818,10 +824,7 @@ background-color: rgba(255, 0, 0, 0);
   
  
 }
-.listItems-1uJgMC {
 
-  transform: translate(-5px, 0px);
-}
 .header-ywPcAE {
   background-color: transparent;
 }
@@ -861,11 +864,13 @@ border-radius: 10px;
   display: none;
 }
 .applicationStore-1pNvnv {
-  height: 750px;
+  height: 80%;
   border-radius: 10px;
   margin: 50px;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.473);
+  border: 5px solid black;
+  transform: translate(0%, 2.5%);
  
 }
 .themed-ANHk51
@@ -876,8 +881,9 @@ border-radius: 10px;
   margin: 10px;  transform: translate(-10px, 0px);
 }
 .body-3HBlXn {
-margin-right: 16px;
-transform: translate(0px, -10px);
+margin: 10px;
+transform: translate(-3.5%, -5%);
+
 }
 .avatar-1BDn8e  {
   border-radius: 10px;
@@ -1018,4 +1024,157 @@ transform: translate(5%, 40%);
 }
 .form-2fGMdU::before {
   display: none;
+}
+
+.wrapper-2qzCYF {
+  background-color: unset;
+}
+.videoGridWrapper-2BDlMX {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+
+.resultsGroup-r_nuzN {
+  background-color: var(--background-primary);
+}
+
+.option-96V44q::after {
+  display: none;
+}
+
+.videoGrid-1khsrF {
+  background-color: rgba(255, 0, 0, 0);
+}
+.callContainer-36WRfH {
+  background-color: rgba(0, 0, 0, 0.438);
+}
+.container-1giJp5 {
+ border: 5px solid black;
+ border-radius: 10px;
+  
+}
+.panels-j1Uci_ {
+  max-width: 100% !important;
+  background-color: rgba(0, 0, 0, 0.438) !important;
+}
+.button-1YfofB {
+  max-width: 60%;
+  width: 30%;
+  position: relative;
+  right: 0%;
+}
+.callContainer-36WRfH {
+  border-radius: 10px;
+}
+.stageSection-3mAD8V {
+  max-height: 91%;
+  padding: 20px;
+  position: relative;
+  top: -2%;
+  right: 1%;
+  width: 100%;
+ 
+}
+.nowPlayingSidebar-2OFn0o {
+    max-height: 91%;
+  padding: 20px;
+  position: relative;
+  top: -2%;
+ 
+  width: 100%;
+}
+.focusLock-Ns3yie {
+  border-radius: 10px;
+}
+.sidebarScrollable-1qPI87 {
+ left: -10%;
+}
+.layoutStyle-2tuE18 {
+  position: relative;
+  right: -5%;
+}
+.button-38aScr {
+  right:8.9%;
+}
+.inputWrapper-31_8H8 {
+  border-radius: 10px;
+  border: 5px solid black;
+
+}
+.copyButton-1I8hd3 {
+  right: -0.5%;
+}
+.animatorBottom-fS5rNO  {
+  border-radius: 10px;
+}
+.container-3XJ8ns {
+  padding: 10px;
+ 
+}
+.customContainer-1RHXqt {
+  padding: 5px;
+
+}
+.scroller-tlc3kG {
+transform: translate(-0.5%);
+max-width: 99%;
+ 
+}
+.floating-window  {
+  border: 5px solid black;
+}
+.messagesPopout-24nkyi {
+  margin: 10px;
+  transform: translate(-2.5%);
+} 
+.positionLayer-1KzSAt {
+  border-color: transparent;
+}
+.scroller-3tPHw0 {
+ width: 80%;
+ position: relative;
+ transform: translate(3%);
+  margin: 20px;
+}
+.children-rWhLdy {
+  transform: translate(10%);
+}
+.inputWrapper-2YCfto {
+  transform: translate(-8%);
+  border-radius: 10px;
+}
+.scroller-3tPHw0 {
+ padding: 50px;
+}
+.body-31Cs__ {
+  transform: translate(-15%);
+}
+.drawerSizingWrapper-17Mss4 {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.scroller-3GIiMh {
+  max-height: 70%;
+  margin: 10%;
+  background-position-y: center;
+  
+}
+.searchHeader-2XoQg7 {
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.438);
+  width: 80%;
+  right: -12%;
+  top: 5%;
+}
+
+.bd-addon-card {
+  border: 5px solid black;
+  border-radius: 10px;
+ 
+}
+.bd-addon-header {
+  border-radius: 5px;
+  
 }
